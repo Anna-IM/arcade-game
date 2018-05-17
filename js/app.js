@@ -96,9 +96,9 @@ class Player {
     for (let i = 0; i < allRocks.length; i++) {
       if (player.x > allRocks[i].x - 40 && player.x < allRocks[i].x + 40 &&
         player.y > allRocks[i].y - 40 && player.y < allRocks[i].y + 40) {
-        //alert("You can't pass, try another way!");
-        modal.style.display = "block";
-        document.getElementById('modalText').innerHTML = "You can't pass, try another way!\n \n";
+        alert("You can't pass, try another way!");
+        //modal.style.display = "block";
+        //document.getElementById('modalText').innerHTML = "You can't pass, try another way!\n \n";
         setTimeout(function() {
           player.x = 200;
           player.y = 380;
