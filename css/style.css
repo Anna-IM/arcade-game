@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'VT323', monospace;
+  src: url('https://fonts.googleapis.com/css?family=VT323');
+}
+
+body {
+  text-align: center;
+  background-color: #e0ffa6;
+}
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+
+.modal-content {
+  background-color: #ecffc9;
+  font-size: 20px;
+  margin: 15% auto;
+  padding: 25px 20px 30px 100px;
+  border: 5px solid #888;
+  width: 60%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-default {
+  background-color: #e4ffb2;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1d4c27;
+  border: 3px solid #86cc00;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*Icon in the modal*/
+
+.fa-trophy {
+  font-size: 48px;
+  color: #ffd700;
+  text-shadow: 0px 0px 4px #000;
+}
+
+.btn-default, p {
+  font-family: 'VT323', monospace;
+}
+
+#modalText {
+  color: #a8ff00;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* End modal */
+
+.score-panel {
+  float: left;
+  padding: 80px 0 50px 100px;
+  font-weight: 500;
+  font-family: 'VT323', monospace;
+  font-size: 25px;
+  text-shadow: 0px 0px 4px #000;
+}
